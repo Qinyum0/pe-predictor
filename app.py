@@ -28,7 +28,7 @@ from sklearn.ensemble import RandomForestClassifier
 # from sklearn.model_selection import StratifiedKFold
 # import seaborn as sns
 # from sklearn.calibration import calibration_curve  
-import streamlit as st
+# import streamlit as st
 import pandas as pd
 import joblib
 
@@ -95,7 +95,7 @@ def predict_mortality(patient_data):
 
 # In[12]:
 
-
+import streamlit as st
 def main():
     # 页面设置
     st.set_page_config(page_title="PE Mortality Predictor", layout="wide")
