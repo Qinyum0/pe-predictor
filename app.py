@@ -38,7 +38,7 @@ st.set_page_config(page_title="PE Mortality Predictor", layout="wide")
 # In[2]:
 
 
-data = pd.read_csv('PED7.csv')
+# data = pd.read_csv('PED7.csv')
 
 
 # In[3]:
