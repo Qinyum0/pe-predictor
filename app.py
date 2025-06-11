@@ -32,6 +32,8 @@ from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import joblib
 
+# 页面设置
+st.set_page_config(page_title="PE Mortality Predictor", layout="wide")
 
 # In[2]:
 
@@ -98,7 +100,7 @@ def predict_mortality(patient_data):
 import streamlit as st
 def main():
     # 页面设置
-    st.set_page_config(page_title="PE Mortality Predictor", layout="wide")
+    # st.set_page_config(page_title="PE Mortality Predictor", layout="wide")
     
     # 应用标题和描述
     st.title('PE Mortality Risk Prediction Model')
