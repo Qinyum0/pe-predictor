@@ -5,30 +5,29 @@
 
 
 import numpy as np
-import pandas as pd
-from sklearn.preprocessing import StandardScaler
+# import pandas as pd
+# from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegressionCV
-from sklearn.metrics import classification_report,confusion_matrix,ConfusionMatrixDisplay,roc_curve,roc_auc_score
-import matplotlib.pyplot as plt
-from sklearn.metrics import precision_score
-from sklearn.metrics import f1_score
-from sklearn.metrics import recall_score
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import GridSearchCV,RandomizedSearchCV
-from sklearn.metrics import classification_report, confusion_matrix
+# from sklearn.linear_model import LogisticRegressionCV
+# from sklearn.metrics import classification_report,confusion_matrix,ConfusionMatrixDisplay,roc_curve,roc_auc_score
+# from sklearn.metrics import precision_score
+# from sklearn.metrics import f1_score
+# from sklearn.metrics import recall_score
+# from sklearn.metrics import accuracy_score
+# from sklearn.model_selection import GridSearchCV,RandomizedSearchCV
+# from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
-import xgboost as xgb
-import lightgbm as lgb
-from sklearn.model_selection import KFold,ShuffleSplit,cross_val_score
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import LinearRegression, Lasso, Ridge, ElasticNet
-from sklearn.metrics import roc_curve,auc
-from sklearn.model_selection import StratifiedKFold
-import seaborn as sns
-from sklearn.calibration import calibration_curve  
+# from sklearn.svm import SVC
+# from sklearn.tree import DecisionTreeClassifier
+# import xgboost as xgb
+# import lightgbm as lgb
+# from sklearn.model_selection import KFold,ShuffleSplit,cross_val_score
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import LinearRegression, Lasso, Ridge, ElasticNet
+# from sklearn.metrics import roc_curve,auc
+# from sklearn.model_selection import StratifiedKFold
+# import seaborn as sns
+# from sklearn.calibration import calibration_curve  
 import streamlit as st
 import pandas as pd
 import joblib
