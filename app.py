@@ -28,7 +28,7 @@ from sklearn.ensemble import RandomForestClassifier
 # from sklearn.model_selection import StratifiedKFold
 # import seaborn as sns
 # from sklearn.calibration import calibration_curve  
-# import streamlit as st
+import streamlit as st
 import pandas as pd
 import joblib
 
