@@ -160,7 +160,7 @@ if __name__ == '__main__':
 # In[13]:
 
 
-get_ipython().system('jupyter nbconvert --to script "肺栓塞模型网站1.1.ipynb"')
+# get_ipython().system('jupyter nbconvert --to script "肺栓塞模型网站1.1.ipynb"')
 
 
 # In[ ]:
